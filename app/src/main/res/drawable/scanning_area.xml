@@ -1,0 +1,65 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Top Left Corner -->
+    <item
+        android:left="0dp"
+        android:top="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="20dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/white" />
+            <size
+                android:width="40dp"
+                android:height="40dp" />
+        </shape>
+    </item>
+
+    <!-- Top Right Corner -->
+    <item
+        android:right="0dp"
+        android:top="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="20dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/white" />
+            <size
+                android:width="40dp"
+                android:height="40dp" />
+        </shape>
+    </item>
+
+    <!-- Bottom Left Corner -->
+    <item
+        android:bottom="0dp"
+        android:left="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="20dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/white" />
+            <size
+                android:width="40dp"
+                android:height="40dp" />
+        </shape>
+    </item>
+
+    <!-- Bottom Right Corner -->
+    <item
+        android:bottom="0dp"
+        android:right="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="20dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/white" />
+            <size
+                android:width="40dp"
+                android:height="40dp" />
+        </shape>
+    </item>
+</layer-list>
